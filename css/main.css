@@ -3005,11 +3005,6 @@ html.no-csstransitions .featured {
    padding: 0 20px;
 }
 
-.masonry__brick:last-child {
-   float: right;
-   padding: 0 20px;
-}
-
 
 /* ------------------------------------------------------------------- 
  * responsive:
