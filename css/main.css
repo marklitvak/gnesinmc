@@ -216,11 +216,18 @@ p.lead {
 
 }
 
-em, i, strong, b {
+em, i, strong {
    font-size: inherit;
    line-height: inherit;
    font-style: normal;
    font-weight: normal;
+}
+
+b {
+   font-size: inherit;
+   line-height: inherit;
+   font-style: normal;
+   font-weight: bold;
 }
 
 em, i {
