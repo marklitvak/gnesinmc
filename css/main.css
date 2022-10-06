@@ -1752,7 +1752,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-
 /* ===================================================================
  * # pageheader
  *
@@ -3005,6 +3004,12 @@ html.no-csstransitions .featured {
    float: left;
    padding: 0 20px;
 }
+
+.masonry__brick:last-child {
+   float: right;
+   padding: 0 20px;
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
