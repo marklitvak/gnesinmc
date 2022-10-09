@@ -467,6 +467,10 @@ td {
    font-size: 10pt;
 }
 
+tr.past {
+   color: rgb(180, 180, 180);
+}
+
 th:first-child, td:first-child {
    padding-left: 0;
 }
