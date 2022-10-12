@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Задачник</title>
+    <title>Тактика боя</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -116,10 +116,10 @@
             </div> <!-- end s-content__header -->
     
             <div class="col-full s-content__main">
-                <p>Постарайтесь оценить преимущества каждой стороны: материальный перевес, слабые поля, проходные пешки, давление на центр, открытые линии, владение пространством...<br>
+                <p class="justify">Постарайтесь оценить преимущества каждой стороны: материальный перевес, слабые поля, проходные пешки, давление на центр, открытые линии, владение пространством...<br>
                 В качестве подсказки - иногда указан первый ход.
                 </p>
-                <p><b>B</b> - слон (Bishop), <b>R</b> - ладья (Rook), <b>N</b> - конь (kNight), <b>Q</b> - ферзь (Queen), <b>K</b> - король (King). <b>26.[ход белых][ход черных]</b></p>
+                <p class="justify"><b>B</b> - слон (Bishop), <b>R</b> - ладья (Rook), <b>N</b> - конь (kNight), <b>Q</b> - ферзь (Queen), <b>K</b> - король (King). <b>26.[ход белых][ход черных]</b></p>
             </div>
         </article>
         <div class="row masonry-wrap">
@@ -410,8 +410,40 @@
             </p>
         </div>
 
+        <div class="masonry__brick entry">
+            <table class="chessboard">
+                <tr><td><a class="chessfig b">&#9820;</a></td><td><a class="chessfig b">&#9822;</a></td><td><a class="chessfig b">&#9819;</a></td><td></td><td></td><td><a class="chessfig b">&#9820;</a></td><td><a class="chessfig b">&#9818;</a></td><td></td></tr>
+                <tr><td><a class="chessfig b">&#9823;</a></td><td><a class="chessfig b">&#9821;</a></td><td><a class="chessfig b">&#9823;</a></td><td></td><td><a class="chessfig b">&#9821;</a></td><td><a class="chessfig b">&#9823;</a></td><td><a class="chessfig b">&#9823;</a></td><td><a class="chessfig b">&#9823;</a></td></tr>
+                <tr><td></td><td><a class="chessfig b">&#9823;</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td><a class="chessfig b">&#9823;</a></td><td><a class="chessfig w">&#9822;</a></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td><a class="chessfig w">&#9823;</a></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td><a class="chessfig w">&#9823;</a></td><td></td></tr>
+                <tr><td><a class="chessfig w">&#9823;</a></td><td><a class="chessfig w">&#9823;</a></td><td></td><td></td><td><a class="chessfig w">&#9823;</a></td><td><a class="chessfig w">&#9823;</a></td><td><a class="chessfig w">&#9821;</a></td><td><a class="chessfig w">&#9823;</a></td></tr>
+                <tr><td><a class="chessfig w">&#9820;</a></td><td></td><td><a class="chessfig w">&#9821;</a></td><td><a class="chessfig w">&#9819;</a></td><td></td><td><a class="chessfig w">&#9820;</a></td><td><a class="chessfig w">&#9818;</a></td><td></td></tr>
+            </table>
+            <p>Ход черных <b>1.Qb3...</b><br>
+            Лундин - Ботвинник (Гронинген, 1946)
+            </p>
         </div>
+
+        <div class="masonry__brick entry">
+            <table class="chessboard">
+                <tr><td><a class="chessfig b">&#9820;</a></td><td></td><td><a class="chessfig b">&#9820;</a></td><td></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td><a class="chessfig b">&#9818;</a></td><td><a class="chessfig b">&#9823;</a></td><td></td></tr>
+                <tr><td></td><td><a class="chessfig w">&#9821;</a></td><td></td><td></td><td><a class="chessfig b">&#9823;</a></td><td><a class="chessfig b">&#9823;</a></td><td></td><td><a class="chessfig b">&#9823;</a></td></tr>
+                <tr><td><a class="chessfig w">&#9823;</a></td><td></td><td></td><td><a class="chessfig b">&#9823;</a></td><td></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td><a class="chessfig b">&#9821;</a></td><td><a class="chessfig w">&#9823;</a></td><td><a class="chessfig w">&#9823;</a></td><td></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td><a class="chessfig w">&#9820;</a></td><td></td><td><a class="chessfig w">&#9818;</a></td><td><a class="chessfig w">&#9823;</a></td><td></td><td></td></tr>
+                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td><a class="chessfig w">&#9823;</a></td><td><a class="chessfig w">&#9823;</a></td></tr>
+                <tr><td></td><td></td><td><a class="chessfig w">&#9820;</a></td><td></td><td></td><td></td><td></td><td></td></tr>
+            </table>
+            <p>Ход белых<br>
+            Ботвинник - Таль (1961)
+            </p>
         </div>
+
+    </div>
+    </div>
     </section>
 
     <!-- s-footer
@@ -434,20 +466,6 @@
 
                 </div> <!-- end s-footer__sitelinks -->
 
-                <!--div class="col-two md-four mob-full s-footer__archives">
-                        
-                    <h4>Архив</h4>
-
-                    <ul class="s-footer__linklist">
-                        <li><a href="#0">January 2022</a></li>
-                        <li><a href="#0">December 2021</a></li>
-                        <li><a href="#0">November 2021</a></li>
-                        <li><a href="#0">October 2021</a></li>
-                        <li><a href="#0">September 2021</a></li>
-                        <li><a href="#0">August 2021</a></li>
-                    </ul>
-
-                </div>  end s-footer__archives -->
 
                 <div class="col-two md-four mob-full s-footer__social">
                         
@@ -519,7 +537,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- Java Script
     ================================================== -->
