@@ -201,6 +201,10 @@ p img {
    margin: 0;
 }
 
+p.justify {
+   text-align: justify;
+}
+
 p.lead {
    font-family: sans-serif;
    font-size: 2rem;
@@ -4202,24 +4206,21 @@ section.chessboards p {
 
 /* s-coloring */
 .chessboard tr:nth-child(2n+1) td:nth-child(2n) {
-   background-color: saddlebrown;
+   background-color: rgb(43, 43, 43);
 }
 
 .chessboard tr:nth-child(2n) td:nth-child(2n+1) {
-   background-color: saddlebrown;
-}
-
-a.chessfig.w {
-   text-shadow: 1px 1px #000, -1px 1px #000;
-
+   background-color: rgb(43, 43, 43);
 }
 
 a.chessfig.b, a.chessfig.b:hover, a.chessfig.b:focus, a.chessfig.b:active {
    color: #000;
+   text-shadow: 1px 0px #fff, -1px 0px #fff;
 }
 
 a.chessfig.w, a.chessfig.w:hover, a.chessfig.w:focus, a.chessfig.w:active {
    color: rgb(255, 219, 166);
+   text-shadow: 1px 0px #000, -1px 0px #000;
 }
 /* end-coloring */
 
