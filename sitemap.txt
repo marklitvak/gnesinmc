@@ -8,3 +8,4 @@ https://gnesinmc.netlify.app/caro-kann-defence.html
 https://gnesinmc.netlify.app/chess-and-music.html
 https://gnesinmc.netlify.app/chessboards.html
 https://gnesinmc.netlify.app/contact.html
+https://gnesinmc.netlify.app/chess_etiquet.html
