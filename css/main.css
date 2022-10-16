@@ -4199,6 +4199,7 @@ section.chessboards p {
    line-height: 3.5rem;
    font-size: 3.5rem;
    font-weight: 500;
+   min-width: 35px;
    width: 35px;
    height: 35px;
    border: 1px solid rgba(0, 0, 0, 0.2);
